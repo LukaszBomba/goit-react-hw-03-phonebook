@@ -1,0 +1,32 @@
+.contactsList {
+  border-color: rgb(233, 151, 58);
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.contactsItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactBtn {
+  margin-left: 10px;
+  width: 80px;
+  height: 20px;
+  padding: 3px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(233, 151, 58);
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  transition: all 300ms ease;
+  cursor: pointer;
+}
+
+.contactBtn:hover {
+  color: rgb(85, 84, 84);
+}
